@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Shooting : MonoBehaviour
+public class Weapon : MonoBehaviour
 {
     [SerializeField] private Rigidbody _prefab;
     [SerializeField] private Transform _bullet;

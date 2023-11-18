@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GoPlaces : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     [SerializeField] private Transform _allPlacesPoint;
 
